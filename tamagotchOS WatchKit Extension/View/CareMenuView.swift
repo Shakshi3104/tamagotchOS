@@ -9,28 +9,30 @@ import SwiftUI
 
 struct CareMenuView: View {
     var body: some View {
-        NavigationView {
-            Form {
-                Section() {
-                    HStack {
-                        Image("mametchi")
-                            .scaleEffect(0.4)
-                            .frame(width: 30, height: 30)
-                        
-                        Text("まめっち")
-                    }
-                    .padding(.vertical, 15)
-                }
-                
-                Section() {
-                    CareMenuItem(icon: "🏠", name: "おたすけ")
-                    CareMenuItem(icon: "🍴", name: "しょくじ")
-                    CareMenuItem(icon: "🛀", name: "おふろ")
-                    CareMenuItem(icon: "📦", name: "もちもの")
-                    CareMenuItem(icon: "🎈", name: "App")
-                    CareMenuItem(icon: "🧳", name: "おでかけ")
-                    CareMenuItem(icon: "📡", name: "つうしん")
-                }
+        Form {
+            Section() {
+                NavigationLink(
+                    destination: StateMenuView(),
+                    label: {
+                        HStack {
+                            Image("mametchi")
+                                .scaleEffect(0.4)
+                                .frame(width: 30, height: 30)
+                            
+                            Text("まめっち")
+                        }
+                        .padding(.vertical, 15)
+                    })
+            }
+            
+            Section() {
+                CareMenuItem(icon: "🏠", name: "おたすけ")
+                CareMenuItem(icon: "🍴", name: "しょくじ")
+                CareMenuItem(icon: "🛀", name: "おふろ")
+                CareMenuItem(icon: "📦", name: "もちもの")
+                CareMenuItem(icon: "🎈", name: "App")
+                CareMenuItem(icon: "🧳", name: "おでかけ")
+                CareMenuItem(icon: "📡", name: "つうしん")
             }
         }
     }

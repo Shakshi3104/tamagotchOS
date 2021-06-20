@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE09F242267EF3C1003C8DF0 /* StateMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F241267EF3C1003C8DF0 /* StateMenuView.swift */; };
+		CE09F244267EF3E4003C8DF0 /* Utilies.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F243267EF3E4003C8DF0 /* Utilies.swift */; };
+		CE09F246267EF9ED003C8DF0 /* HelpMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09F245267EF9ED003C8DF0 /* HelpMenuView.swift */; };
 		CE40E77E267DCC3D007DF995 /* tamagotchOS WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CE40E77D267DCC3D007DF995 /* tamagotchOS WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		CE40E783267DCC3F007DF995 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE40E782267DCC3F007DF995 /* Assets.xcassets */; };
 		CE40E78A267DCC3F007DF995 /* tamagotchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE40E789267DCC3F007DF995 /* tamagotchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -66,6 +69,9 @@
 
 /* Begin PBXFileReference section */
 		CE09F240267ECE23003C8DF0 /* tamagotchOSv0.2.0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tamagotchOSv0.2.0.gif; sourceTree = "<group>"; };
+		CE09F241267EF3C1003C8DF0 /* StateMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateMenuView.swift; sourceTree = "<group>"; };
+		CE09F243267EF3E4003C8DF0 /* Utilies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilies.swift; sourceTree = "<group>"; };
+		CE09F245267EF9ED003C8DF0 /* HelpMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpMenuView.swift; sourceTree = "<group>"; };
 		CE40E779267DCC3C007DF995 /* tamagotchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamagotchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE40E77D267DCC3D007DF995 /* tamagotchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tamagotchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE40E782267DCC3F007DF995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -157,6 +163,9 @@
 				CE40E790267DCC3F007DF995 /* ContentView.swift */,
 				CE40E7B0267DCFF7007DF995 /* HomeView.swift */,
 				CE40E7AD267DCDBB007DF995 /* CareMenuView.swift */,
+				CE09F241267EF3C1003C8DF0 /* StateMenuView.swift */,
+				CE09F245267EF9ED003C8DF0 /* HelpMenuView.swift */,
+				CE09F243267EF3E4003C8DF0 /* Utilies.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,13 +306,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE09F246267EF9ED003C8DF0 /* HelpMenuView.swift in Sources */,
 				CE40E793267DCC3F007DF995 /* NotificationController.swift in Sources */,
 				CE40E7B1267DCFF7007DF995 /* HomeView.swift in Sources */,
 				CE40E791267DCC3F007DF995 /* ContentView.swift in Sources */,
 				CE40E7AE267DCDBB007DF995 /* CareMenuView.swift in Sources */,
 				CE40E797267DCC3F007DF995 /* ComplicationController.swift in Sources */,
 				CE40E78F267DCC3F007DF995 /* tamagotchOSApp.swift in Sources */,
+				CE09F244267EF3E4003C8DF0 /* Utilies.swift in Sources */,
 				CE40E795267DCC3F007DF995 /* NotificationView.swift in Sources */,
+				CE09F242267EF3C1003C8DF0 /* StateMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
