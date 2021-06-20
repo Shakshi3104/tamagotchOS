@@ -1,5 +1,9 @@
 #  tamagotchOS
 
+<p align="center">
+  <img src="materials/tamagotchOSIcon.png" height=64 />
+</p>
+
 tamagotchOS is a watchOS-like imitation of [Tamagotchi Smart](https://toy.bandai.co.jp/series/tamagotchi/smart/).
 
 <p align="center">
