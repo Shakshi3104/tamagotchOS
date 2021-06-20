@@ -65,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE09F240267ECE23003C8DF0 /* tamagotchOSv0.2.0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tamagotchOSv0.2.0.gif; sourceTree = "<group>"; };
 		CE40E779267DCC3C007DF995 /* tamagotchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamagotchOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE40E77D267DCC3D007DF995 /* tamagotchOS WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tamagotchOS WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE40E782267DCC3F007DF995 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -164,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				CE9514C2267DE60E0062CD75 /* tamagotchOSv0.1.0.gif */,
+				CE09F240267ECE23003C8DF0 /* tamagotchOSv0.2.0.gif */,
 			);
 			path = materials;
 			sourceTree = "<group>";

@@ -15,12 +15,6 @@ struct HomeView: View {
             Image("mametchi")
                 .scaleEffect(0.7)
         }
-        .onLongPressGesture {
-            isPresented.toggle()
-        }
-        .sheet(isPresented: $isPresented, content: {
-            CareMenuView()
-        })
     }
 }
 
