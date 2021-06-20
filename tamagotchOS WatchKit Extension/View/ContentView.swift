@@ -11,13 +11,6 @@ struct ContentView: View {
     @State var isPresented = false
     
     var body: some View {
-//        TabView {
-//            HomeView()
-//            NavigationView {
-//                CareMenuView()
-//            }
-//        }
-        
         HomeView()
             .onLongPressGesture {
                  isPresented.toggle()
