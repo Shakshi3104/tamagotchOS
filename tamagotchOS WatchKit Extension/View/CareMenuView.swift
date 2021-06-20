@@ -32,7 +32,12 @@ struct CareMenuView: View {
                         CareMenuItem(icon: "🏠", name: "おたすけ")
                     })
                 
-                CareMenuItem(icon: "🍴", name: "しょくじ")
+                NavigationLink(
+                    destination: FoodMenuView(),
+                    label: {
+                        CareMenuItem(icon: "🍴", name: "しょくじ")
+                    })
+                
                 CareMenuItem(icon: "🛀", name: "おふろ")
                 CareMenuItem(icon: "📦", name: "もちもの")
                 CareMenuItem(icon: "🎈", name: "App")
