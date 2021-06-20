@@ -9,7 +9,11 @@ import SwiftUI
 
 struct NotificationView: View {
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Image("mametchi")
+                .scaleEffect(0.7)
+            Text("おなかがすきました")
+        }
     }
 }
 
