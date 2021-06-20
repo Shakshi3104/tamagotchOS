@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct GridItemView: View {
+struct ItemSelectionGridView: View {
     // Grid items
     @State var items: [String] = [""]
     // Label of `do`
@@ -38,6 +38,6 @@ struct GridItemView: View {
 
 struct ViewUtiles_Previews: PreviewProvider {
     static var previews: some View {
-        GridItemView(items: ["🍙", "🍣", "🍜", "🍔", "🍟", "🍕", "🥪", "🍝", "🍛"])
+        ItemSelectionGridView(items: ["🍙", "🍣", "🍜", "🍔", "🍟", "🍕", "🥪", "🍝", "🍛"])
     }
 }

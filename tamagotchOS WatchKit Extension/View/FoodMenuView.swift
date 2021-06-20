@@ -11,13 +11,13 @@ struct FoodMenuView: View {
     var body: some View {
         Form {
             NavigationLink(
-                destination: GridItemView(items: ["🍙"]),
+                destination: ItemSelectionGridView(items: ["🍙"]),
                 label: {
                     Text("ごはん")
                 })
             
             NavigationLink(
-                destination: GridItemView(items: ["🍬"]),
+                destination: ItemSelectionGridView(items: ["🍬"]),
                 label: {
                     Text("おやつ")
                 })
