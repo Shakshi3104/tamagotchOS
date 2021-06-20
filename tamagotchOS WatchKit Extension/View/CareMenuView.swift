@@ -22,15 +22,15 @@ struct CareMenuView: View {
                     .padding(.vertical, 15)
                 }
                 
-                CareMenuItem(icon: "🎗", name: "おたすけ")
-                CareMenuItem(icon: "🍴", name: "しょくじ")
-                CareMenuItem(icon: "🛀", name: "おふろ")
-                CareMenuItem(icon: "📦", name: "もちもの")
-                CareMenuItem(icon: "🎈", name: "App")
-                CareMenuItem(icon: "🧳", name: "おでかけ")
-                CareMenuItem(icon: "📡", name: "つうしん")
-                
-                
+                Section() {
+                    CareMenuItem(icon: "🏠", name: "おたすけ")
+                    CareMenuItem(icon: "🍴", name: "しょくじ")
+                    CareMenuItem(icon: "🛀", name: "おふろ")
+                    CareMenuItem(icon: "📦", name: "もちもの")
+                    CareMenuItem(icon: "🎈", name: "App")
+                    CareMenuItem(icon: "🧳", name: "おでかけ")
+                    CareMenuItem(icon: "📡", name: "つうしん")
+                }
             }
         }
     }
