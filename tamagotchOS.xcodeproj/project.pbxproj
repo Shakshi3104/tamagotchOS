@@ -29,6 +29,7 @@
 		CE5D6D05267F0E9700A5F4EE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6D04267F0E9700A5F4EE /* AppView.swift */; };
 		CE5D6D07267F11C000A5F4EE /* TamaDeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6D06267F11C000A5F4EE /* TamaDeliveryView.swift */; };
 		CE5D6D09267F15B100A5F4EE /* TripMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6D08267F15B100A5F4EE /* TripMenuView.swift */; };
+		CE5D6D0D267F186B00A5F4EE /* tamagotchOSv0.3.0.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE5D6D0C267F186B00A5F4EE /* tamagotchOSv0.3.0.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +101,7 @@
 		CE5D6D04267F0E9700A5F4EE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
 		CE5D6D06267F11C000A5F4EE /* TamaDeliveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamaDeliveryView.swift; sourceTree = "<group>"; };
 		CE5D6D08267F15B100A5F4EE /* TripMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMenuView.swift; sourceTree = "<group>"; };
+		CE5D6D0C267F186B00A5F4EE /* tamagotchOSv0.3.0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tamagotchOSv0.3.0.gif; sourceTree = "<group>"; };
 		CE9514C1267DE4540062CD75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE9514C2267DE60E0062CD75 /* tamagotchOSv0.1.0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tamagotchOSv0.1.0.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -209,6 +211,7 @@
 			children = (
 				CE9514C2267DE60E0062CD75 /* tamagotchOSv0.1.0.gif */,
 				CE09F240267ECE23003C8DF0 /* tamagotchOSv0.2.0.gif */,
+				CE5D6D0C267F186B00A5F4EE /* tamagotchOSv0.3.0.gif */,
 			);
 			path = materials;
 			sourceTree = "<group>";
@@ -327,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE5D6D0D267F186B00A5F4EE /* tamagotchOSv0.3.0.gif in Resources */,
 				CE40E79C267DCC40007DF995 /* Preview Assets.xcassets in Resources */,
 				CE40E7AF267DCFBF007DF995 /* Assets.xcassets in Resources */,
 				CE40E799267DCC40007DF995 /* Assets.xcassets in Resources */,
