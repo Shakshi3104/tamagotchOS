@@ -172,20 +172,36 @@
 		CE40E7AC267DCD60007DF995 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CE5D6D0A267F172800A5F4EE /* CareView */,
 				CE40E790267DCC3F007DF995 /* ContentView.swift */,
 				CE40E7B0267DCFF7007DF995 /* HomeView.swift */,
 				CE40E7AD267DCDBB007DF995 /* CareMenuView.swift */,
+				CE09F243267EF3E4003C8DF0 /* ViewUtilies.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE5D6D0A267F172800A5F4EE /* CareView */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D6D0B267F174600A5F4EE /* AppView */,
 				CE09F241267EF3C1003C8DF0 /* StateMenuView.swift */,
 				CE09F245267EF9ED003C8DF0 /* HelpMenuView.swift */,
 				CE09F247267EFC3B003C8DF0 /* FoodMenuView.swift */,
 				CE5D6D00267F095700A5F4EE /* BathMenuView.swift */,
 				CE5D6D02267F09A800A5F4EE /* ItemMenuView.swift */,
 				CE5D6D04267F0E9700A5F4EE /* AppView.swift */,
-				CE5D6D06267F11C000A5F4EE /* TamaDeliveryView.swift */,
 				CE5D6D08267F15B100A5F4EE /* TripMenuView.swift */,
-				CE09F243267EF3E4003C8DF0 /* ViewUtilies.swift */,
 			);
-			path = View;
+			path = CareView;
+			sourceTree = "<group>";
+		};
+		CE5D6D0B267F174600A5F4EE /* AppView */ = {
+			isa = PBXGroup;
+			children = (
+				CE5D6D06267F11C000A5F4EE /* TamaDeliveryView.swift */,
+			);
+			path = AppView;
 			sourceTree = "<group>";
 		};
 		CE9514C0267DE4390062CD75 /* materials */ = {
