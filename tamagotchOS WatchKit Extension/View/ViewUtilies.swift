@@ -13,7 +13,8 @@ struct ItemSelectionGridView: View {
     // Label of `do`
     var secondaryButtonLabel = "たべる"
     
-    @State var isPresented = false
+    @State private var isPresented = false
+    @State private var selectedItem = ""
     
     var body: some View {
         ScrollView {
@@ -25,9 +26,10 @@ struct ItemSelectionGridView: View {
                         .padding()
                         .onTapGesture {
                             isPresented.toggle()
+                            self.selectedItem = item
                         }
                         .alert(isPresented: $isPresented, content: {
-                            Alert(title: Text("\(item)"), primaryButton: .cancel(Text("やめる")) , secondaryButton: .default(Text(secondaryButtonLabel)))
+                            Alert(title: Text("\(selectedItem)"), primaryButton: .cancel(Text("やめる")) , secondaryButton: .default(Text(secondaryButtonLabel)))
                         })
                     }
                 
