@@ -7,6 +7,19 @@
 
 import SwiftUI
 
+struct MenuWithIconItem: View {
+    var icon: String
+    var name: String
+    
+    var body: some View {
+        HStack {
+            Text(icon)
+                .frame(width: 30, height: 30)
+            Text(name)
+        }
+    }
+}
+
 struct ItemSelectionGridView: View {
     // Grid items
     @State var items: [String] = [""]

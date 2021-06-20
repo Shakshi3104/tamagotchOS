@@ -26,6 +26,8 @@
 		CE40E7B1267DCFF7007DF995 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE40E7B0267DCFF7007DF995 /* HomeView.swift */; };
 		CE5D6D01267F095700A5F4EE /* BathMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6D00267F095700A5F4EE /* BathMenuView.swift */; };
 		CE5D6D03267F09A800A5F4EE /* ItemMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6D02267F09A800A5F4EE /* ItemMenuView.swift */; };
+		CE5D6D05267F0E9700A5F4EE /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6D04267F0E9700A5F4EE /* AppView.swift */; };
+		CE5D6D07267F11C000A5F4EE /* TamaDeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5D6D06267F11C000A5F4EE /* TamaDeliveryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +96,8 @@
 		CE40E7B0267DCFF7007DF995 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CE5D6D00267F095700A5F4EE /* BathMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BathMenuView.swift; sourceTree = "<group>"; };
 		CE5D6D02267F09A800A5F4EE /* ItemMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMenuView.swift; sourceTree = "<group>"; };
+		CE5D6D04267F0E9700A5F4EE /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		CE5D6D06267F11C000A5F4EE /* TamaDeliveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamaDeliveryView.swift; sourceTree = "<group>"; };
 		CE9514C1267DE4540062CD75 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		CE9514C2267DE60E0062CD75 /* tamagotchOSv0.1.0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = tamagotchOSv0.1.0.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -174,6 +178,8 @@
 				CE09F247267EFC3B003C8DF0 /* FoodMenuView.swift */,
 				CE5D6D00267F095700A5F4EE /* BathMenuView.swift */,
 				CE5D6D02267F09A800A5F4EE /* ItemMenuView.swift */,
+				CE5D6D04267F0E9700A5F4EE /* AppView.swift */,
+				CE5D6D06267F11C000A5F4EE /* TamaDeliveryView.swift */,
 				CE09F243267EF3E4003C8DF0 /* ViewUtilies.swift */,
 			);
 			path = View;
@@ -325,9 +331,11 @@
 				CE40E797267DCC3F007DF995 /* ComplicationController.swift in Sources */,
 				CE40E78F267DCC3F007DF995 /* tamagotchOSApp.swift in Sources */,
 				CE5D6D03267F09A800A5F4EE /* ItemMenuView.swift in Sources */,
+				CE5D6D05267F0E9700A5F4EE /* AppView.swift in Sources */,
 				CE09F244267EF3E4003C8DF0 /* ViewUtilies.swift in Sources */,
 				CE40E795267DCC3F007DF995 /* NotificationView.swift in Sources */,
 				CE09F242267EF3C1003C8DF0 /* StateMenuView.swift in Sources */,
+				CE5D6D07267F11C000A5F4EE /* TamaDeliveryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

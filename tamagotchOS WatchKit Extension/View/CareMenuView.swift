@@ -29,47 +29,36 @@ struct CareMenuView: View {
                 NavigationLink(
                     destination: HelpMenuView(),
                     label: {
-                        CareMenuItem(icon: "🏠", name: "おたすけ")
+                        MenuWithIconItem(icon: "🏠", name: "おたすけ")
                     })
                 
                 NavigationLink(
                     destination: FoodMenuView(),
                     label: {
-                        CareMenuItem(icon: "🍴", name: "しょくじ")
+                        MenuWithIconItem(icon: "🍴", name: "しょくじ")
                     })
                 
                 NavigationLink(
                     destination: BathMenuView(),
                     label: {
-                        CareMenuItem(icon: "🛀", name: "おふろ")
+                        MenuWithIconItem(icon: "🛀", name: "おふろ")
                     })
                 
                 NavigationLink(
                     destination: ItemMenuView(),
                     label: {
-                        CareMenuItem(icon: "📦", name: "もちもの")
+                        MenuWithIconItem(icon: "📦", name: "もちもの")
                     })
                 
-                CareMenuItem(icon: "🎈", name: "App")
-                CareMenuItem(icon: "🧳", name: "おでかけ")
-                CareMenuItem(icon: "📡", name: "つうしん")
+                MenuWithIconItem(icon: "🎈", name: "App")
+                MenuWithIconItem(icon: "🧳", name: "おでかけ")
+                MenuWithIconItem(icon: "📡", name: "つうしん")
             }
         }
     }
 }
 
-struct CareMenuItem: View {
-    var icon: String
-    var name: String
-    
-    var body: some View {
-        HStack {
-            Text(icon)
-                .frame(width: 30, height: 30)
-            Text(name)
-        }
-    }
-}
+
 
 struct CareMenuView_Previews: PreviewProvider {
     static var previews: some View {

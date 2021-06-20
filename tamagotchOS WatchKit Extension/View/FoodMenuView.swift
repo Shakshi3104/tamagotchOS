@@ -8,16 +8,19 @@
 import SwiftUI
 
 struct FoodMenuView: View {
+    var dishItems = ["🍙"]
+    var snackItems = ["🍬"]
+    
     var body: some View {
         Form {
             NavigationLink(
-                destination: ItemSelectionGridView(items: ["🍙"]),
+                destination: ItemSelectionGridView(items: dishItems),
                 label: {
                     Text("ごはん")
                 })
             
             NavigationLink(
-                destination: ItemSelectionGridView(items: ["🍬"]),
+                destination: ItemSelectionGridView(items: snackItems),
                 label: {
                     Text("おやつ")
                 })
