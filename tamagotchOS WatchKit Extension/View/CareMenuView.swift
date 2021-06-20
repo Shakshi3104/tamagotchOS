@@ -50,8 +50,18 @@ struct CareMenuView: View {
                         MenuWithIconItem(icon: "📦", name: "もちもの")
                     })
                 
-                MenuWithIconItem(icon: "🎈", name: "App")
-                MenuWithIconItem(icon: "🧳", name: "おでかけ")
+                NavigationLink(
+                    destination: AppView(),
+                    label: {
+                        MenuWithIconItem(icon: "🎈", name: "App")
+                    })
+                
+                NavigationLink(
+                    destination: TripMenuView(),
+                    label: {
+                        MenuWithIconItem(icon: "🧳", name: "おでかけ")
+                    })
+                
                 MenuWithIconItem(icon: "📡", name: "つうしん")
             }
         }
