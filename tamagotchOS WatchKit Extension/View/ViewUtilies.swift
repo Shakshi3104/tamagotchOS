@@ -42,7 +42,9 @@ struct ItemSelectionGridView: View {
                             self.selectedItem = item
                         }
                         .alert(isPresented: $isPresented, content: {
-                            Alert(title: Text("\(selectedItem)"), primaryButton: .cancel(Text("やめる")) , secondaryButton: .default(Text(secondaryButtonLabel)))
+                            Alert(title: Text("\(selectedItem)"), primaryButton: .cancel(Text("やめる")) , secondaryButton: .default(Text(secondaryButtonLabel), action: {
+                                print("\(selectedItem)を\(secondaryButtonLabel)")
+                            }))
                         })
                     }
                 
@@ -53,6 +55,9 @@ struct ItemSelectionGridView: View {
 
 struct ViewUtiles_Previews: PreviewProvider {
     static var previews: some View {
-        ItemSelectionGridView(items: ["🍙", "🍣", "🍜", "🍔", "🍟", "🍕", "🥪", "🍝", "🍛"])
+        Group {
+            MenuWithIconItem(icon: "🤯", name: "OMG")
+            ItemSelectionGridView(items: ["🍙", "🍣", "🍜", "🍔", "🍟", "🍕", "🥪", "🍝", "🍛"])
+        }
     }
 }

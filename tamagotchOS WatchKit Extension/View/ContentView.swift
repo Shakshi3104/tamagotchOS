@@ -13,9 +13,9 @@ struct ContentView: View {
     var body: some View {
         HomeView()
             .onLongPressGesture {
-                 isPresented.toggle()
+                isPresented.toggle()
              }
-             .sheet(isPresented: $isPresented, content: {
+            .sheet(isPresented: $isPresented, content: {
                 NavigationView {
                     CareMenuView()
                 }

@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State var isPresented = false
-    
     var body: some View {
         VStack {
             Image("mametchi")
