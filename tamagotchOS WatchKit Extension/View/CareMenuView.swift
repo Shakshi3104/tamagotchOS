@@ -38,8 +38,18 @@ struct CareMenuView: View {
                         CareMenuItem(icon: "🍴", name: "しょくじ")
                     })
                 
-                CareMenuItem(icon: "🛀", name: "おふろ")
-                CareMenuItem(icon: "📦", name: "もちもの")
+                NavigationLink(
+                    destination: BathMenuView(),
+                    label: {
+                        CareMenuItem(icon: "🛀", name: "おふろ")
+                    })
+                
+                NavigationLink(
+                    destination: ItemMenuView(),
+                    label: {
+                        CareMenuItem(icon: "📦", name: "もちもの")
+                    })
+                
                 CareMenuItem(icon: "🎈", name: "App")
                 CareMenuItem(icon: "🧳", name: "おでかけ")
                 CareMenuItem(icon: "📡", name: "つうしん")
