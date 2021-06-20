@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import WatchKit
 
 struct ContentView: View {
     @State var isPresented = false
@@ -13,6 +14,7 @@ struct ContentView: View {
     var body: some View {
         HomeView()
             .onLongPressGesture {
+                WKInterfaceDevice.current().play(.click)
                 isPresented.toggle()
              }
             .sheet(isPresented: $isPresented, content: {
